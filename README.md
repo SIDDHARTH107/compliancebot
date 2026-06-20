@@ -70,16 +70,27 @@ python-dotenv==1.0.0
 
 ## 📁 Project Structure
 compliancebot/
+
 ├── agent_document_intake.py      # Agent 1: Extract customer data
+
 ├── agent_risk_score.py           # Agent 2: Calculate risk & decision
+
 ├── agents.py                     # Orchestrator: Combines both agents
+
 ├── app.py                        # Streamlit UI application
+
 ├── setup_database.py             # Initialize SQLite database
+
 ├── download_model.py             # Download AI model
+
 ├── verify_all_records.py         # Database verification script
+
 ├── compliancebot.db              # SQLite database
+
 ├── requirements.txt              # Python dependencies
+
 ├── .env                          # Environment configuration
+
 └── README.md                     # Documentation
 
 ## 🚀 Quick Start
