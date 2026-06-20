@@ -1,0 +1,21 @@
+﻿# Find this section in app.py (around line 90):
+
+        # Store in database
+        if st.button("💾 Save to Database"):
+            if store_decision(result):
+                st.success("✅ Decision saved to SQLite!")
+            else:
+                st.error("❌ Failed to save to database")
+
+# Replace with this improved version:
+
+        # Store in database
+        col1, col2 = st.columns(2)
+        with col1:
+            if st.button("💾 Save to Database", use_container_width=True):
+                with st.spinner("Saving..."):
+                    if store_decision(result):
+                        st.success("✅ Decision saved to SQLite database!")
+                        st.balloons()
+                    else:
+                        st.error("❌ Failed to save to database")
