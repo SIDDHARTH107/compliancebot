@@ -182,15 +182,6 @@ Risk Score: 0.30 → Decision: REVIEW
 ✅ **User-Friendly UI** - Streamlit dashboard
 ✅ **Fully Tested** - 9+ customer records verified
 
-## 🔮 Future Enhancements
-
-- Connect to real sanction databases (OFAC, UN lists)
-- Document OCR for automated form processing
-- Additional agents (Adverse Media, Financial Analysis)
-- Cloud deployment with PostgreSQL
-- Machine learning for risk score refinement
-- API endpoint for system integration
-
 ## 📚 Course Information
 
 - **Course:** IE 5250 - Applied Generative AI
